@@ -55,7 +55,7 @@ class DefaultButton extends StatelessWidget {
           ),
           child: Center(
             child: loading
-                ? Row(
+                ? const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
@@ -67,7 +67,7 @@ class DefaultButton extends StatelessWidget {
                           color: Colors.white,
                         ),
                       ),
-                      const SizedBox(
+                      SizedBox(
                         width: 5,
                       ),
                       Center(
