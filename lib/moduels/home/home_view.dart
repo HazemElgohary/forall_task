@@ -54,6 +54,7 @@ class HomeScreen extends StatelessWidget {
                         );
                       },
                     ),
+                    SizedBox(height: 10,),
                     DefaultButton(
                       text: 'submit',
                       onTap: () {

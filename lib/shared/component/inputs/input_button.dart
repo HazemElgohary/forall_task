@@ -49,8 +49,8 @@ class DefaultButton extends StatelessWidget {
               loading
                   ? (Colors.orange)
                   : active
-                      ? Colors.grey
-                      : (Colors.red),
+                      ? Colors.red
+                      : (Colors.grey),
             ),
           ),
           child: Center(
